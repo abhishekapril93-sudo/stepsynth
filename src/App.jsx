@@ -534,8 +534,8 @@ export default function App() {
         </div>
 
         {/* Quick Presets Picker */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap', paddingTop: '0.4rem', borderTop: '1px solid var(--border-subtle)' }}>
-          <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase', fontWeight: 600 }}>
+        <div className="presets-row">
+          <span style={{ fontSize: '0.75rem', color: 'var(--text-dim)', textTransform: 'uppercase', fontWeight: 600, flexShrink: 0 }}>
             Soundscape Presets:
           </span>
           {PRESET_SOUNDSCAPES.map((preset) => (
